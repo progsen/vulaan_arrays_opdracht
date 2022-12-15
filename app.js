@@ -7,21 +7,21 @@ class App
         let mijnGetallen = [1,2,77,999];
 
         /*
-            zet op de juiste plek (vervang de ? vraagtekens):
+            zet op de juiste plek (vul in op de lege plekken ______ ):
 
             i++
             length
             let i
             i
         */
-        for(? = 0; i < mijnGetallen.?; ?)
+        for(______ = 0; i < mijnGetallen.______;______)
         {
-            let mijnGetal = mijnGetallen[?];
+            let mijnGetal = mijnGetallen[______];
             console.log(mijnGetal);
         }
 
         /*
-            zet op de juiste plek (vervang de ? vraagtekens):
+            zet op de juiste plek (vul in op de lege plekken ______ ):
 
             break
             while
@@ -33,15 +33,15 @@ class App
         
         let count = 0;
         //we gaan door tot 3 pogingen om een 6 te gooien
-        ?(?)
+        ______(______)
         {
             
             let gooi = Math.floor(Math.random() * 6) + 1;
-            if(?)
+            if(______)
             {
-                console.?("yes!");
-                ?
-            ?
+                console.______("yes!");
+                ______
+            ______
         }
     }
 }
